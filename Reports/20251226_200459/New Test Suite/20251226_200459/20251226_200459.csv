@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:01,26-12-2025 20:05:34,32.539s,ERROR
+,,,,,,,
+Test Cases/screenError,TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:27,26-12-2025 20:05:33,6.834s,ERROR
+"openBrowser("""")",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:27,26-12-2025 20:05:33,6.804s,PASSED
+driver = getWebDriver(),TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.000s,PASSED
+"auth = ""admin:admin""",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.001s,PASSED
+"encodedAuth = ""Basic "" + encodeBase64().toString()",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.000s,PASSED
+headerMap = new java.util.HashMap(),TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.000s,PASSED
+"headerMap.put(""Authorization"", encodedAuth)",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.000s,PASSED
+if (driver instanceof org.openqa.selenium.chromium.HasCdp),TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.001s,PASSED
+else,TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:05:33,26-12-2025 20:05:33,0.011s,ERROR

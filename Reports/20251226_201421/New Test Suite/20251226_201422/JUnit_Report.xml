@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="6.15" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="6.15" skipped="0" timestamp="2025-12-26T14:44:24.308Z" hostname="bhavyansh-katalon - 192.168.31.170" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_201421/New Test Suite/20251226_201422"/>
+         <property name="logFiles" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_201421/New Test Suite/20251226_201422/execution0.log, /Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_201421/New Test Suite/20251226_201422/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhavyansh-katalon - 192.168.31.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="Bhavyansh"/>
+         <property name="hostAddress" value="192.168.31.170"/>
+         <property name="sessionId" value="1dc198d3b762df30c5cf286af81560d2"/>
+         <property name="projectName" value="KatalonDBTest"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/screenError" time="1.215" classname="Test Cases/screenError" status="FAILED">
+         <failure type="FAILED" message="Test Cases/screenError FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)&#xa;	at screenError.run(screenError:8)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1766760262324.run(TempTestSuite1766760262324.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.devtools.DevToolsException: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.34.0` where `NN` matches the major version of the browser you're using.&#xa;Build info: version: '4.34.0', revision: '707dcb4246*'&#xa;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'&#xa;Driver info: DevTools Connection&#xa;	at org.openqa.selenium.devtools.noop.NoOpDomains.target(NoOpDomains.java:60)&#xa;	at org.openqa.selenium.devtools.DevTools.findTarget(DevTools.java:199)&#xa;	at org.openqa.selenium.devtools.DevTools.createSession(DevTools.java:159)&#xa;	at org.openqa.selenium.devtools.DevTools.createSessionIfThereIsNotOne(DevTools.java:140)&#xa;	at org.openqa.selenium.chromium.ChromiumDriver.register(ChromiumDriver.java:286)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$r70GVokF.register(Unknown Source)&#xa;	at com.kms.katalon.core.webui.authentication.basic.CdpBasicAuth.navigate(CdpBasicAuth.java:23)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:61)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[26-12-2025T20:14:29 - [TEST_CASE][FAILED] - Test Cases/screenError: Test Cases/screenError FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760262324.run(TempTestSuite1766760262324.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.devtools.DevToolsException: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.34.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.noop.NoOpDomains.target(NoOpDomains.java:60)
+	at org.openqa.selenium.devtools.DevTools.findTarget(DevTools.java:199)
+	at org.openqa.selenium.devtools.DevTools.createSession(DevTools.java:159)
+	at org.openqa.selenium.devtools.DevTools.createSessionIfThereIsNotOne(DevTools.java:140)
+	at org.openqa.selenium.chromium.ChromiumDriver.register(ChromiumDriver.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$r70GVokF.register(Unknown Source)
+	at com.kms.katalon.core.webui.authentication.basic.CdpBasicAuth.navigate(CdpBasicAuth.java:23)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+
+26-12-2025T20:14:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2025T20:14:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-12-2025T20:14:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-12-2025T20:14:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2025T20:14:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2025T20:14:30 - [TEST_STEP][FAILED] - authenticate("http://the-internet.herokuapp.com/basic_auth", "admin", "admin", 12): Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760262324.run(TempTestSuite1766760262324.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.devtools.DevToolsException: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.34.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.noop.NoOpDomains.target(NoOpDomains.java:60)
+	at org.openqa.selenium.devtools.DevTools.findTarget(DevTools.java:199)
+	at org.openqa.selenium.devtools.DevTools.createSession(DevTools.java:159)
+	at org.openqa.selenium.devtools.DevTools.createSessionIfThereIsNotOne(DevTools.java:140)
+	at org.openqa.selenium.chromium.ChromiumDriver.register(ChromiumDriver.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$r70GVokF.register(Unknown Source)
+	at com.kms.katalon.core.webui.authentication.basic.CdpBasicAuth.navigate(CdpBasicAuth.java:23)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at Script1766149640316.run(Script1766149640316.groovy:8)
+	... 18 more
+)
+
+26-12-2025T20:14:30 - [MESSAGE][FAILED] - Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760262324.run(TempTestSuite1766760262324.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.devtools.DevToolsException: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.34.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.noop.NoOpDomains.target(NoOpDomains.java:60)
+	at org.openqa.selenium.devtools.DevTools.findTarget(DevTools.java:199)
+	at org.openqa.selenium.devtools.DevTools.createSession(DevTools.java:159)
+	at org.openqa.selenium.devtools.DevTools.createSessionIfThereIsNotOne(DevTools.java:140)
+	at org.openqa.selenium.chromium.ChromiumDriver.register(ChromiumDriver.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$r70GVokF.register(Unknown Source)
+	at com.kms.katalon.core.webui.authentication.basic.CdpBasicAuth.navigate(CdpBasicAuth.java:23)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at Script1766149640316.run(Script1766149640316.groovy:8)
+	... 18 more
+)]]></system-out>
+         <system-err><![CDATA[26-12-2025T20:14:29 - [TEST_CASE][FAILED] - Test Cases/screenError: Test Cases/screenError FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:8)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760262324.run(TempTestSuite1766760262324.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.devtools.DevToolsException: You are using a no-op implementation of the CDP. The most likely reason for this is that Selenium was unable to find an implementation of the CDP protocol that matches your browser. Please be sure to include an implementation on the classpath, possibly by adding a new (maven) dependency of `org.seleniumhq.selenium:selenium-devtools-vNN:4.34.0` where `NN` matches the major version of the browser you're using.
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: DevTools Connection
+	at org.openqa.selenium.devtools.noop.NoOpDomains.target(NoOpDomains.java:60)
+	at org.openqa.selenium.devtools.DevTools.findTarget(DevTools.java:199)
+	at org.openqa.selenium.devtools.DevTools.createSession(DevTools.java:159)
+	at org.openqa.selenium.devtools.DevTools.createSessionIfThereIsNotOne(DevTools.java:140)
+	at org.openqa.selenium.chromium.ChromiumDriver.register(ChromiumDriver.java:286)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$r70GVokF.register(Unknown Source)
+	at com.kms.katalon.core.webui.authentication.basic.CdpBasicAuth.navigate(CdpBasicAuth.java:23)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:61)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-12-2025T20:14:24 - [TEST_SUITE][FAILED] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[26-12-2025T20:14:24 - [TEST_SUITE][FAILED] - New Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,789 @@
+2025-12-26 20:07:11.393 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/org.eclipse.osgi/132/0/.cp/resources/logback/logback-execution.xml
+2025-12-26 20:07:11.395 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/bhavyansh-katalon/git/KatalonDBTest/Include/config/log.properties
+2025-12-26 20:07:11.473 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/New Test Suite
+2025-12-26 20:07:11.514 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Bhavyansh
+2025-12-26 20:07:11.515 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonDBTest
+2025-12-26 20:07:11.516 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bhavyansh-katalon - 192.168.31.170
+2025-12-26 20:07:11.516 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-12-26 20:07:11.517 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.31.170
+2025-12-26 20:07:11.517 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-26 20:07:11.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:07:11.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:07:11.864 DEBUG testcase.screenError                     - 1: openBrowser("")
+2025-12-26 20:07:11.948 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '143']
+2025-12-26 20:07:11.949 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-26 20:07:11.951 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-26 20:07:11.951 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+2025-12-26 20:07:11.967 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-12-26 20:07:12.063 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-26 20:07:21.622 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2584)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2610)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:772)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5018)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4921)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3868)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3836)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-12-26 20:07:21.640 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:21.640 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:21.641 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:21.760 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2025-12-26 20:07:21.761 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-12-26 20:07:21.761 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-26 20:07:21.762 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})",
+    "userDataDir": "C:\\Program Files\\scoped_dir3988_145499605"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 5556,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "143.0.7499.169",
+  "katalon:caps": {
+    "executionId": "915a063e-2eff-4a9f-9441-6b5b21789dc3",
+    "executionSessionId": "c68ff262-e382-4175-9822-e8f37c9ba5ff"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "915a063e-2eff-4a9f-9441-6b5b21789dc3",
+    "executionSessionId": "c68ff262-e382-4175-9822-e8f37c9ba5ff",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-26 20:07:21.763 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "915a063e-2eff-4a9f-9441-6b5b21789dc3",
+  "executionSessionId": "c68ff262-e382-4175-9822-e8f37c9ba5ff"
+}
+2025-12-26 20:07:21.764 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c68ff262-e382-4175-9822-e8f37c9ba5ff
+2025-12-26 20:07:21.764 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.169
+2025-12-26 20:07:21.764 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-26 20:07:21.764 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-26 20:07:21.768 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-26 20:07:22.056 DEBUG testcase.screenError                     - 2: baseDriver = getWebDriver()
+2025-12-26 20:07:22.058 DEBUG testcase.screenError                     - 3: driver = Augmenter().augment(baseDriver)
+Dec 26, 2025 8:07:22 PM org.openqa.selenium.remote.Augmenter augment
+WARNING: Warning: In future versions, passing a decorated driver will no longer be allowed.
+ Instead, augment the driver first and then use it to created a decorated driver.
+ Explanation: Decorated drivers are not aware of the augmentations applied to them. It can lead to expected behavior.
+ For example, augmenting HasDevTools interface to a decorated driver. 
+ The decorated driver is not aware that after augmentation it is an instance of HasDevTools. So it does not invoke the close() method of the underlying websocket, potentially causing a memory leak. 
+Dec 26, 2025 8:07:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 26, 2025 8:07:22 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+2025-12-26 20:07:22.125 DEBUG testcase.screenError                     - 4: auth = "admin:admin"
+2025-12-26 20:07:22.126 DEBUG testcase.screenError                     - 5: encodedAuth = "Basic " + encodeBase64().toString()
+2025-12-26 20:07:22.135 DEBUG testcase.screenError                     - 6: headerMap = new java.util.HashMap()
+2025-12-26 20:07:22.136 DEBUG testcase.screenError                     - 7: headerMap.put("Authorization", encodedAuth)
+2025-12-26 20:07:22.137 DEBUG testcase.screenError                     - 8: if (driver instanceof org.openqa.selenium.chromium.HasCdp)
+2025-12-26 20:07:22.139 DEBUG testcase.screenError                     - 1: println("CDP Support Found. Injecting Headers...")
+CDP Support Found. Injecting Headers...
+2025-12-26 20:07:22.141 DEBUG testcase.screenError                     - 2: driver.executeCdpCommand("Network.enable", [:])
+2025-12-26 20:07:22.152 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1$ByteBuddy$6bgQVgJi.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:22.156 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1$ByteBuddy$6bgQVgJi.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:22.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:07:22.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:07:22.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:07:22.168 DEBUG testcase.screenError                     - 1: openBrowser("")
+2025-12-26 20:07:22.170 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-26 20:07:22.489 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '143']
+2025-12-26 20:07:22.490 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-26 20:07:22.491 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-26 20:07:22.491 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+2025-12-26 20:07:22.494 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-12-26 20:07:22.056 DEBUG testcase.screenError                     - 2: baseDriver = getWebDriver()
+2025-12-26 20:07:22.058 DEBUG testcase.screenError                     - 3: driver = Augmenter().augment(baseDriver)
+Dec 26, 2025 8:07:22 PM org.openqa.selenium.remote.Augmenter augment
+WARNING: Warning: In future versions, passing a decorated driver will no longer be allowed.
+ Instead, augment the driver first and then use it to created a decorated driver.
+ Explanation: Decorated drivers are not aware of the augmentations applied to them. It can lead to expected behavior.
+ For example, augmenting HasDevTools interface to a decorated driver. 
+ The decorated driver is not aware that after augmentation it is an instance of HasDevTools. So it does not invoke the close() method of the underlying websocket, potentially causing a memory leak. 
+Dec 26, 2025 8:07:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 26, 2025 8:07:22 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+2025-12-26 20:07:22.125 DEBUG testcase.screenError                     - 4: auth = "admin:admin"
+2025-12-26 20:07:22.126 DEBUG testcase.screenError                     - 5: encodedAuth = "Basic " + encodeBase64().toString()
+2025-12-26 20:07:22.135 DEBUG testcase.screenError                     - 6: headerMap = new java.util.HashMap()
+2025-12-26 20:07:22.136 DEBUG testcase.screenError                     - 7: headerMap.put("Authorization", encodedAuth)
+2025-12-26 20:07:22.137 DEBUG testcase.screenError                     - 8: if (driver instanceof org.openqa.selenium.chromium.HasCdp)
+2025-12-26 20:07:22.139 DEBUG testcase.screenError                     - 1: println("CDP Support Found. Injecting Headers...")
+CDP Support Found. Injecting Headers...
+2025-12-26 20:07:22.141 DEBUG testcase.screenError                     - 2: driver.executeCdpCommand("Network.enable", [:])
+2025-12-26 20:07:22.152 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1$ByteBuddy$6bgQVgJi.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:22.156 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$WWdt0LY1$ByteBuddy$6bgQVgJi.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:22.158 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:07:22.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:07:22.160 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:07:22.168 DEBUG testcase.screenError                     - 1: openBrowser("")
+2025-12-26 20:07:22.170 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-26 20:07:22.489 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '143']
+2025-12-26 20:07:22.490 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-26 20:07:22.491 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-26 20:07:22.491 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+2025-12-26 20:07:22.494 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-12-26 20:07:22.496 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-26 20:07:28.696 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2584)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2610)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:772)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5018)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4921)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3868)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3836)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-12-26 20:07:28.705 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:28.706 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:28.707 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:28.732 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2025-12-26 20:07:28.732 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-12-26 20:07:28.732 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-26 20:07:28.733 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})",
+    "userDataDir": "C:\\Program Files\\scoped_dir5696_235946948"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 5732,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "143.0.7499.169",
+  "katalon:caps": {
+    "executionId": "92a8957f-54d7-4e2f-960e-9559cea593a0",
+    "executionSessionId": "d45e01e8-4468-4075-b8d9-61505a88da59"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "92a8957f-54d7-4e2f-960e-9559cea593a0",
+    "executionSessionId": "d45e01e8-4468-4075-b8d9-61505a88da59",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-26 20:07:28.734 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "92a8957f-54d7-4e2f-960e-9559cea593a0",
+  "executionSessionId": "d45e01e8-4468-4075-b8d9-61505a88da59"
+}
+2025-12-26 20:07:28.735 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d45e01e8-4468-4075-b8d9-61505a88da59
+2025-12-26 20:07:28.735 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.169
+2025-12-26 20:07:28.735 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-26 20:07:28.735 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-26 20:07:28.736 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-26 20:07:29.301 DEBUG testcase.screenError                     - 2: baseDriver = getWebDriver()
+2025-12-26 20:07:29.302 DEBUG testcase.screenError                     - 3: driver = Augmenter().augment(baseDriver)
+Dec 26, 2025 8:07:29 PM org.openqa.selenium.remote.Augmenter augment
+WARNING: Warning: In future versions, passing a decorated driver will no longer be allowed.
+ Instead, augment the driver first and then use it to created a decorated driver.
+ Explanation: Decorated drivers are not aware of the augmentations applied to them. It can lead to expected behavior.
+ For example, augmenting HasDevTools interface to a decorated driver. 
+ The decorated driver is not aware that after augmentation it is an instance of HasDevTools. So it does not invoke the close() method of the underlying websocket, potentially causing a memory leak. 
+Dec 26, 2025 8:07:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 26, 2025 8:07:29 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+2025-12-26 20:07:29.327 DEBUG testcase.screenError                     - 4: auth = "admin:admin"
+2025-12-26 20:07:29.328 DEBUG testcase.screenError                     - 5: encodedAuth = "Basic " + encodeBase64().toString()
+2025-12-26 20:07:29.329 DEBUG testcase.screenError                     - 6: headerMap = new java.util.HashMap()
+2025-12-26 20:07:29.330 DEBUG testcase.screenError                     - 7: headerMap.put("Authorization", encodedAuth)
+2025-12-26 20:07:29.330 DEBUG testcase.screenError                     - 8: if (driver instanceof org.openqa.selenium.chromium.HasCdp)
+2025-12-26 20:07:29.330 DEBUG testcase.screenError                     - 1: println("CDP Support Found. Injecting Headers...")
+CDP Support Found. Injecting Headers...
+2025-12-26 20:07:29.331 DEBUG testcase.screenError                     - 2: driver.executeCdpCommand("Network.enable", [:])
+2025-12-26 20:07:29.340 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$SAav1Vg1.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$SAav1Vg1$ByteBuddy$CKAYRd89.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:29.342 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$SAav1Vg1.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$SAav1Vg1$ByteBuddy$CKAYRd89.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:29.343 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:07:29.344 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:07:29.344 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:07:29.352 DEBUG testcase.screenError                     - 1: openBrowser("")
+2025-12-26 20:07:29.355 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-26 20:07:29.686 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '143']
+2025-12-26 20:07:29.687 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-26 20:07:29.687 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-26 20:07:29.688 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+2025-12-26 20:07:29.690 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-12-26 20:07:29.693 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-26 20:07:36.480 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2584)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2610)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:772)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5018)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4921)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3868)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3836)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-12-26 20:07:36.493 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:36.494 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:36.495 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:36.521 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2025-12-26 20:07:36.522 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-12-26 20:07:36.522 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-26 20:07:36.523 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})",
+    "userDataDir": "C:\\Program Files\\scoped_dir4140_1174335782"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 4580,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "143.0.7499.169",
+  "katalon:caps": {
+    "executionId": "9f7c5ada-4c74-4311-88fb-bbf6be01d410",
+    "executionSessionId": "e045ec57-40b9-4591-a4c6-07ebbd3d9e2e"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "9f7c5ada-4c74-4311-88fb-bbf6be01d410",
+    "executionSessionId": "e045ec57-40b9-4591-a4c6-07ebbd3d9e2e",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-26 20:07:36.523 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "9f7c5ada-4c74-4311-88fb-bbf6be01d410",
+  "executionSessionId": "e045ec57-40b9-4591-a4c6-07ebbd3d9e2e"
+}
+2025-12-26 20:07:36.524 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e045ec57-40b9-4591-a4c6-07ebbd3d9e2e
+2025-12-26 20:07:36.524 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.169
+2025-12-26 20:07:36.524 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-26 20:07:36.525 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-26 20:07:36.525 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-26 20:07:36.899 DEBUG testcase.screenError                     - 2: baseDriver = getWebDriver()
+2025-12-26 20:07:36.902 DEBUG testcase.screenError                     - 3: driver = Augmenter().augment(baseDriver)
+Dec 26, 2025 8:07:36 PM org.openqa.selenium.remote.Augmenter augment
+WARNING: Warning: In future versions, passing a decorated driver will no longer be allowed.
+ Instead, augment the driver first and then use it to created a decorated driver.
+ Explanation: Decorated drivers are not aware of the augmentations applied to them. It can lead to expected behavior.
+ For example, augmenting HasDevTools interface to a decorated driver. 
+ The decorated driver is not aware that after augmentation it is an instance of HasDevTools. So it does not invoke the close() method of the underlying websocket, potentially causing a memory leak. 
+Dec 26, 2025 8:07:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 26, 2025 8:07:36 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+2025-12-26 20:07:36.947 DEBUG testcase.screenError                     - 4: auth = "admin:admin"
+2025-12-26 20:07:36.947 DEBUG testcase.screenError                     - 5: encodedAuth = "Basic " + encodeBase64().toString()
+2025-12-26 20:07:36.948 DEBUG testcase.screenError                     - 6: headerMap = new java.util.HashMap()
+2025-12-26 20:07:36.949 DEBUG testcase.screenError                     - 7: headerMap.put("Authorization", encodedAuth)
+2025-12-26 20:07:36.949 DEBUG testcase.screenError                     - 8: if (driver instanceof org.openqa.selenium.chromium.HasCdp)
+2025-12-26 20:07:36.949 DEBUG testcase.screenError                     - 1: println("CDP Support Found. Injecting Headers...")
+CDP Support Found. Injecting Headers...
+2025-12-26 20:07:36.950 DEBUG testcase.screenError                     - 2: driver.executeCdpCommand("Network.enable", [:])
+2025-12-26 20:07:36.958 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$4BEjBHwV.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$4BEjBHwV$ByteBuddy$rB9DcF06.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:36.959 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$4BEjBHwV.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$4BEjBHwV$ByteBuddy$rB9DcF06.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:36.960 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:07:36.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:07:36.963 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:07:36.968 DEBUG testcase.screenError                     - 1: openBrowser("")
+2025-12-26 20:07:36.972 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-12-26 20:07:37.329 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserVersion', '143']
+2025-12-26 20:07:37.330 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['browserName', 'chrome']
+2025-12-26 20:07:37.331 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['platformName', 'windows']
+2025-12-26 20:07:37.332 INFO  c.k.k.c.w.util.WebDriverPropertyUtil     - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+2025-12-26 20:07:37.335 INFO  c.k.k.core.webui.driver.DriverFactory    - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+2025-12-26 20:07:37.338 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2025-12-26 20:07:44.677 ERROR .s.f.SeleniumCreateSessionResponseFilter - Exception while trying to back-fill sessionId
+com.fasterxml.jackson.core.JsonParseException: Illegal character ((CTRL-CHAR, code 31)): only regular white space (\r, \n, \t) is allowed between tokens
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 2]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2584)
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2610)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._throwInvalidSpace(ParserMinimalBase.java:772)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2508)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextToken(ReaderBasedJsonParser.java:673)
+	at com.fasterxml.jackson.databind.ObjectMapper._initForReading(ObjectMapper.java:5018)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4921)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3868)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3836)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionResponseFilter.lambda$0(SeleniumCreateSessionResponseFilter.java:43)
+	at com.kms.katalon.selenium.filter.SeleniumCreateSessionPayloadFilter.lambda$0(SeleniumCreateSessionPayloadFilter.java:73)
+	at com.kms.katalon.selenium.filter.SeleniumBasicAuthorizationFilter.lambda$0(SeleniumBasicAuthorizationFilter.java:58)
+	at com.kms.katalon.selenium.filter.SeleniumResponseContentEncodingDecompressionFilter.lambda$0(SeleniumResponseContentEncodingDecompressionFilter.java:44)
+	at com.kms.katalon.selenium.filter.SeleniumAcceptEncodingFilter.lambda$0(SeleniumAcceptEncodingFilter.java:25)
+	at com.kms.katalon.selenium.filter.SeleniumProxyBasicAuthorizationFilter.lambda$0(SeleniumProxyBasicAuthorizationFilter.java:49)
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$2(JdkHttpClient.java:387)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2025-12-26 20:07:44.685 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:44.686 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:44.686 WARN  c.k.k.core.webui.driver.DriverFactory    - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+2025-12-26 20:07:44.710 INFO  c.k.k.core.webui.driver.DriverFactory    - browserVersionType = 
+2025-12-26 20:07:44.710 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteDriverUrl = testcloud.katalon.com/wd/hub
+2025-12-26 20:07:44.710 INFO  c.k.k.core.webui.driver.DriverFactory    - remoteOS = Windows
+2025-12-26 20:07:44.711 INFO  c.k.k.core.webui.driver.DriverFactory    - desiredCapabilities = {
+  "networkConnectionEnabled": false,
+  "chrome": {
+    "chromedriverVersion": "143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})",
+    "userDataDir": "C:\\Program Files\\scoped_dir316_1363617507"
+  },
+  "timeouts": {
+    "implicit": 0,
+    "pageLoad": 300000,
+    "script": 30000
+  },
+  "goog:processID": 5936,
+  "pageLoadStrategy": "normal",
+  "unhandledPromptBehavior": "dismiss and notify",
+  "strictFileInteractability": false,
+  "proxy": {
+    "proxyType": "UNSPECIFIED",
+    "autodetect": false
+  },
+  "webauthn:extension:minPinLength": true,
+  "goog:chromeOptions": {
+    "debuggerAddress": "localhost:9225"
+  },
+  "webauthn:extension:credBlob": true,
+  "webauthn:extension:prf": true,
+  "acceptInsecureCerts": false,
+  "browserVersion": "143.0.7499.169",
+  "katalon:caps": {
+    "executionId": "3dbd16ef-77bb-4779-9a10-ac7028abd7c8",
+    "executionSessionId": "bfedc87b-1d7d-4c9b-8542-c05cdf3912d4"
+  },
+  "fedcm:accounts": true,
+  "browserName": "chrome",
+  "platformName": "WINDOWS",
+  "setWindowRect": true,
+  "webauthn:extension:largeBlob": true,
+  "katalon:options": {
+    "executionId": "3dbd16ef-77bb-4779-9a10-ac7028abd7c8",
+    "executionSessionId": "bfedc87b-1d7d-4c9b-8542-c05cdf3912d4",
+    "runFromTestCloud": true
+  },
+  "webauthn:virtualAuthenticators": true
+}
+2025-12-26 20:07:44.712 INFO  c.k.k.core.webui.driver.DriverFactory    - katalon:caps = {
+  "executionId": "3dbd16ef-77bb-4779-9a10-ac7028abd7c8",
+  "executionSessionId": "bfedc87b-1d7d-4c9b-8542-c05cdf3912d4"
+}
+2025-12-26 20:07:44.712 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = bfedc87b-1d7d-4c9b-8542-c05cdf3912d4
+2025-12-26 20:07:44.712 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.169
+2025-12-26 20:07:44.713 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-26 20:07:44.713 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-26 20:07:44.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-26 20:07:45.165 DEBUG testcase.screenError                     - 2: baseDriver = getWebDriver()
+2025-12-26 20:07:45.167 DEBUG testcase.screenError                     - 3: driver = Augmenter().augment(baseDriver)
+Dec 26, 2025 8:07:45 PM org.openqa.selenium.remote.Augmenter augment
+WARNING: Warning: In future versions, passing a decorated driver will no longer be allowed.
+ Instead, augment the driver first and then use it to created a decorated driver.
+ Explanation: Decorated drivers are not aware of the augmentations applied to them. It can lead to expected behavior.
+ For example, augmenting HasDevTools interface to a decorated driver. 
+ The decorated driver is not aware that after augmentation it is an instance of HasDevTools. So it does not invoke the close() method of the underlying websocket, potentially causing a memory leak. 
+Dec 26, 2025 8:07:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 26, 2025 8:07:45 PM org.openqa.selenium.devtools.CdpEndpointFinder getCdpEndPoint
+WARNING: Unable to connect to determine websocket url: java.net.ConnectException
+2025-12-26 20:07:45.209 DEBUG testcase.screenError                     - 4: auth = "admin:admin"
+2025-12-26 20:07:45.210 DEBUG testcase.screenError                     - 5: encodedAuth = "Basic " + encodeBase64().toString()
+2025-12-26 20:07:45.210 DEBUG testcase.screenError                     - 6: headerMap = new java.util.HashMap()
+2025-12-26 20:07:45.211 DEBUG testcase.screenError                     - 7: headerMap.put("Authorization", encodedAuth)
+2025-12-26 20:07:45.211 DEBUG testcase.screenError                     - 8: if (driver instanceof org.openqa.selenium.chromium.HasCdp)
+2025-12-26 20:07:45.211 DEBUG testcase.screenError                     - 1: println("CDP Support Found. Injecting Headers...")
+CDP Support Found. Injecting Headers...
+2025-12-26 20:07:45.211 DEBUG testcase.screenError                     - 2: driver.executeCdpCommand("Network.enable", [:])
+2025-12-26 20:07:45.219 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:45.220 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+2025-12-26 20:07:45.221 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:07:45.650 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-26 20:07:45.650 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/New Test Suite
+2025-12-26 20:07:45.650 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

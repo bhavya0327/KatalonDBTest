@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:00,26-12-2025 20:22:19,18.777s,PASSED
+,,,,,,,
+Test Cases/screenError,TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:00,26-12-2025 20:22:19,18.591s,PASSED
+"openBrowser("""")",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:00,26-12-2025 20:22:16,15.738s,PASSED
+maximizeWindow(),TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:16,26-12-2025 20:22:16,0.418s,PASSED
+"url = ""https://admin:admin@the-internet.herokuapp.com/basic_auth""",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:16,26-12-2025 20:22:16,0.003s,PASSED
+navigateToUrl(url),TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:16,26-12-2025 20:22:17,0.554s,PASSED
+waitForPageLoad(5),TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:17,26-12-2025 20:22:17,0.354s,PASSED
+"verifyTextPresent(""Congratulations!"", false)",TestCloud - Windows - Chrome 143.0.7499.169,,,26-12-2025 20:22:17,26-12-2025 20:22:19,1.371s,PASSED

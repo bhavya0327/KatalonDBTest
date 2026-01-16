@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 143.0.7499.170,,,26-12-2025 20:14:24,26-12-2025 20:14:30,6.150s,FAILED
+,,,,,,,
+Test Cases/screenError,Chrome 143.0.7499.170,,,26-12-2025 20:14:29,26-12-2025 20:14:30,1.215s,FAILED
+"openBrowser("""")",Chrome 143.0.7499.170,,,26-12-2025 20:14:29,26-12-2025 20:14:30,1.202s,PASSED
+"authenticate(""http://the-internet.herokuapp.com/basic_auth"", ""admin"", ""admin"", 12)",Chrome 143.0.7499.170,Input username and password on authentication dialog.,,26-12-2025 20:14:30,26-12-2025 20:14:30,0.007s,FAILED

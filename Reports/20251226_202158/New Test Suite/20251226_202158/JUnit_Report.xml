@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="18.774" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="18.774" skipped="0" timestamp="2025-12-26T14:52:00.361Z" hostname="bhavyansh-katalon - 192.168.31.170" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_202158/New Test Suite/20251226_202158"/>
+         <property name="logFiles" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_202158/New Test Suite/20251226_202158/execution0.log, /Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_202158/New Test Suite/20251226_202158/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhavyansh-katalon - 192.168.31.170"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/wd/hub"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="userFullName" value="Bhavyansh"/>
+         <property name="sessionId" value="b6fc9eef-d9d0-479f-9a40-28c78550514a"/>
+         <property name="browserVersionType" value=""/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir4288_1304863600&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;goog:processID&quot;: 8512,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;143.0.7499.169&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;75348221-10cb-4e4b-9182-0382341ce408&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;b6fc9eef-d9d0-479f-9a40-28c78550514a&quot;&#xa;  },&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;75348221-10cb-4e4b-9182-0382341ce408&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;b6fc9eef-d9d0-479f-9a40-28c78550514a&quot;,&#xa;    &quot;runFromTestCloud&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;75348221-10cb-4e4b-9182-0382341ce408&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;b6fc9eef-d9d0-479f-9a40-28c78550514a&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 143.0.7499.169"/>
+         <property name="hostAddress" value="192.168.31.170"/>
+         <property name="projectName" value="KatalonDBTest"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+      </properties>
+      <testcase name="Test Cases/screenError" time="18.591" classname="Test Cases/screenError" status="PASSED">
+         <system-out><![CDATA[26-12-2025T20:22:00 - [TEST_CASE][PASSED] - Test Cases/screenError: Test Cases/screenError
+
+26-12-2025T20:22:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2025T20:22:00 - [MESSAGE][INFO] - User set preference: ['browserVersion', '143']
+
+26-12-2025T20:22:00 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+26-12-2025T20:22:00 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+26-12-2025T20:22:00 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+
+26-12-2025T20:22:00 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+26-12-2025T20:22:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2025T20:22:15 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-12-2025T20:22:15 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-12-2025T20:22:15 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-12-2025T20:22:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2025T20:22:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-12-2025T20:22:16 - [MESSAGE][PASSED] - Current window maximized
+
+26-12-2025T20:22:16 - [TEST_STEP][PASSED] - url = "https://admin:admin@the-internet.herokuapp.com/basic_auth": null
+
+26-12-2025T20:22:16 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://admin:admin@the-internet.herokuapp.com/basic_auth' successfully
+
+26-12-2025T20:22:17 - [MESSAGE][PASSED] - Navigate to 'https://admin:admin@the-internet.herokuapp.com/basic_auth' successfully
+
+26-12-2025T20:22:17 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+26-12-2025T20:22:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+26-12-2025T20:22:17 - [TEST_STEP][PASSED] - verifyTextPresent("Congratulations!", false): Text 'Congratulations!' is present on page 
+
+26-12-2025T20:22:19 - [MESSAGE][PASSED] - Text 'Congratulations!' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-12-2025T20:22:00 - [TEST_SUITE][PASSED] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

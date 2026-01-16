@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="7.716" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="7.716" skipped="0" timestamp="2025-12-26T14:41:10.184Z" hostname="bhavyansh-katalon - 192.168.31.170" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_201106/New Test Suite/20251226_201107"/>
+         <property name="logFiles" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_201106/New Test Suite/20251226_201107/execution0.log, /Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_201106/New Test Suite/20251226_201107/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhavyansh-katalon - 192.168.31.170"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="browser" value="Chrome 143.0.7499.170"/>
+         <property name="userFullName" value="Bhavyansh"/>
+         <property name="hostAddress" value="192.168.31.170"/>
+         <property name="sessionId" value="837d85d531afc6660a2bd6fd48c2283d"/>
+         <property name="projectName" value="KatalonDBTest"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/screenError" time="7.536" classname="Test Cases/screenError" status="PASSED">
+         <system-out><![CDATA[26-12-2025T20:11:10 - [TEST_CASE][PASSED] - Test Cases/screenError: Test Cases/screenError
+
+26-12-2025T20:11:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2025T20:11:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-12-2025T20:11:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2025T20:11:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - smartDriver = getWebDriver(): null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - driver = smartDriver.getWrappedDriver(): null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - auth = "admin:admin": null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - encodedAuth = "Basic " + encodeBase64().toString(): null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - headerMap = ["Authorization":encodedAuth]: null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - driver.executeCdpCommand("Network.enable", [:]): null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - driver.executeCdpCommand("Network.setExtraHTTPHeaders", ["headers":headerMap]): null
+
+26-12-2025T20:11:12 - [TEST_STEP][PASSED] - navigateToUrl("https://the-internet.herokuapp.com/basic_auth"): Navigate to 'https://the-internet.herokuapp.com/basic_auth' successfully
+
+26-12-2025T20:11:17 - [MESSAGE][PASSED] - Navigate to 'https://the-internet.herokuapp.com/basic_auth' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-12-2025T20:11:10 - [TEST_SUITE][PASSED] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

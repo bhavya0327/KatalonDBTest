@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 143.0.7499.170,,,26-12-2025 20:12:32,26-12-2025 20:12:39,7.385s,FAILED
+,,,,,,,
+Test Cases/screenError,Chrome 143.0.7499.170,,,26-12-2025 20:12:37,26-12-2025 20:12:39,1.564s,FAILED
+"openBrowser("""")",Chrome 143.0.7499.170,,,26-12-2025 20:12:37,26-12-2025 20:12:39,1.229s,PASSED
+maximizeWindow(),Chrome 143.0.7499.170,,,26-12-2025 20:12:39,26-12-2025 20:12:39,0.319s,PASSED
+"url = ""https://the-internet.herokuapp.com/basic_auth""",Chrome 143.0.7499.170,,,26-12-2025 20:12:39,26-12-2025 20:12:39,0.000s,PASSED
+"user = ""admin""",Chrome 143.0.7499.170,,,26-12-2025 20:12:39,26-12-2025 20:12:39,0.000s,PASSED
+"pass = ""admin""",Chrome 143.0.7499.170,,,26-12-2025 20:12:39,26-12-2025 20:12:39,0.001s,PASSED
+"authenticate(url, user, pass, 15)",Chrome 143.0.7499.170,,,26-12-2025 20:12:39,26-12-2025 20:12:39,0.006s,FAILED

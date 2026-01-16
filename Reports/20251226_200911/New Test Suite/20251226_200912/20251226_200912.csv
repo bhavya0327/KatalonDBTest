@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 143.0.7499.170,,,26-12-2025 20:09:14,26-12-2025 20:09:27,13.064s,PASSED
+,,,,,,,
+Test Cases/screenError,Chrome 143.0.7499.170,,,26-12-2025 20:09:14,26-12-2025 20:09:27,12.770s,PASSED
+"openBrowser("""")",Chrome 143.0.7499.170,,,26-12-2025 20:09:14,26-12-2025 20:09:16,1.973s,PASSED
+smartDriver = getWebDriver(),Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.001s,PASSED
+driver = smartDriver.getWrappedDriver(),Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.006s,PASSED
+"auth = ""admin:admin""",Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.001s,PASSED
+"encodedAuth = ""Basic "" + encodeBase64().toString()",Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.006s,PASSED
+"headerMap = [""Authorization"":encodedAuth]",Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.001s,PASSED
+"driver.executeCdpCommand(""Network.enable"", [:])",Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.008s,PASSED
+"driver.executeCdpCommand(""Network.setExtraHTTPHeaders"", [""headers"":headerMap])",Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:16,0.003s,PASSED
+"navigateToUrl(""https://the-internet.herokuapp.com/basic_auth"")",Chrome 143.0.7499.170,,,26-12-2025 20:09:16,26-12-2025 20:09:27,10.599s,PASSED

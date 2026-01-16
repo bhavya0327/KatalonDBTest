@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,26-12-2025 20:12:04,26-12-2025 20:12:04,0.493s,FAILED
+,,,,,,,
+Test Cases/screenError,,,,26-12-2025 20:12:04,26-12-2025 20:12:04,0.012s,FAILED
+"url = ""https://the-internet.herokuapp.com/basic_auth""",,,,26-12-2025 20:12:04,26-12-2025 20:12:04,0.000s,PASSED
+"user = ""admin""",,,,26-12-2025 20:12:04,26-12-2025 20:12:04,0.000s,PASSED
+"pass = ""admin""",,,,26-12-2025 20:12:04,26-12-2025 20:12:04,0.001s,PASSED
+"authenticate(url, user, pass, 15)",,,,26-12-2025 20:12:04,26-12-2025 20:12:04,0.004s,FAILED

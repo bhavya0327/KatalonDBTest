@@ -1,0 +1,35 @@
+2025-12-26 20:08:54.586 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/org.eclipse.osgi/132/0/.cp/resources/logback/logback-execution.xml
+2025-12-26 20:08:54.588 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/bhavyansh-katalon/git/KatalonDBTest/Include/config/log.properties
+2025-12-26 20:08:54.654 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/New Test Suite
+2025-12-26 20:08:54.695 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Bhavyansh
+2025-12-26 20:08:54.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonDBTest
+2025-12-26 20:08:54.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bhavyansh-katalon - 192.168.31.170
+2025-12-26 20:08:54.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-12-26 20:08:54.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.31.170
+2025-12-26 20:08:54.696 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-26 20:08:54.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:08:54.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:08:54.983 DEBUG testcase.screenError                     - 1: openBrowser("")
+2025-12-26 20:08:55.052 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-12-26 20:08:55.070 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Dec 26, 2025 8:08:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 143
+Dec 26, 2025 8:08:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 143.0.7499.170. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.34.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-12-26 20:08:56.802 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 11390e93bb7fb89e3bb36b736415852f
+2025-12-26 20:08:56.802 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 143.0.7499.170
+2025-12-26 20:08:56.803 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-12-26 20:08:56.803 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.34.0
+2025-12-26 20:08:56.807 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-12-26 20:08:56.823 DEBUG testcase.screenError                     - 2: smartDriver = getWebDriver()
+2025-12-26 20:08:56.824 DEBUG testcase.screenError                     - 3: driver = smartDriver.getWrappedDriver()
+2025-12-26 20:08:56.832 DEBUG testcase.screenError                     - 4: auth = "admin:admin"
+2025-12-26 20:08:56.833 DEBUG testcase.screenError                     - 5: encodedAuth = "Basic " + encodeBase64().toString()
+2025-12-26 20:08:56.840 DEBUG testcase.screenError                     - 6: headerMap = ["Authorization":encodedAuth]
+2025-12-26 20:08:56.841 DEBUG testcase.screenError                     - 7: driver.executeCdpCommand("Network.enable", [:])
+2025-12-26 20:08:56.850 DEBUG testcase.screenError                     - 8: driver.executeCdpCommand("Network.setExtraHTTPHeaders", ["headers":headerMap])
+2025-12-26 20:08:56.853 DEBUG testcase.screenError                     - 9: navigateToUrl("https://the-internet.herokuapp.com/basic_auth")
+2025-12-26 20:08:58.318 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:09:05.511 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-26 20:09:05.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/New Test Suite
+2025-12-26 20:09:05.512 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

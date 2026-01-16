@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LoginAndMakeAppointment_New</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <origin>STUDIOASSIST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ef62f829-6ea0-4f88-88be-f43ff8805287</testCaseGuid>
+</TestCaseEntity>

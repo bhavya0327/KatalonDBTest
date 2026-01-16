@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="33.713" tests="1" failures="0" errors="1">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="1" time="33.713" skipped="0" timestamp="2025-12-26T14:37:11.508Z" hostname="bhavyansh-katalon - 192.168.31.170" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_200709/New Test Suite/20251226_200709"/>
+         <property name="logFiles" value="/Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_200709/New Test Suite/20251226_200709/execution0.log, /Users/bhavyansh-katalon/git/KatalonDBTest/Reports/20251226_200709/New Test Suite/20251226_200709/console0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="bhavyansh-katalon - 192.168.31.170"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/wd/hub"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="10.4.2.0"/>
+         <property name="userFullName" value="Bhavyansh"/>
+         <property name="sessionId" value="bfedc87b-1d7d-4c9b-8542-c05cdf3912d4"/>
+         <property name="browserVersionType" value=""/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;143.0.7499.169 (164b20aab62509dad21fd46383951aeec084ad1e-refs/branch-heads/7499@{#3399})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Program Files\\scoped_dir316_1363617507&quot;&#xa;  },&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;goog:processID&quot;: 5936,&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;143.0.7499.169&quot;,&#xa;  &quot;katalon:caps&quot;: {&#xa;    &quot;executionId&quot;: &quot;3dbd16ef-77bb-4779-9a10-ac7028abd7c8&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;bfedc87b-1d7d-4c9b-8542-c05cdf3912d4&quot;&#xa;  },&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;katalon:options&quot;: {&#xa;    &quot;executionId&quot;: &quot;3dbd16ef-77bb-4779-9a10-ac7028abd7c8&quot;,&#xa;    &quot;executionSessionId&quot;: &quot;bfedc87b-1d7d-4c9b-8542-c05cdf3912d4&quot;,&#xa;    &quot;runFromTestCloud&quot;: true&#xa;  },&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="katalon:caps" value="{&#xa;  &quot;executionId&quot;: &quot;3dbd16ef-77bb-4779-9a10-ac7028abd7c8&quot;,&#xa;  &quot;executionSessionId&quot;: &quot;bfedc87b-1d7d-4c9b-8542-c05cdf3912d4&quot;&#xa;}"/>
+         <property name="browser" value="Chrome 143.0.7499.169"/>
+         <property name="hostAddress" value="192.168.31.170"/>
+         <property name="projectName" value="KatalonDBTest"/>
+         <property name="seleniumVersion" value="4.34.0"/>
+      </properties>
+      <testcase name="Test Cases/screenError" time="8.258" classname="Test Cases/screenError" status="ERROR">
+         <error type="ERROR" message="Test Cases/screenError FAILED.&#xa;Reason:&#xa;java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers &quot;protected&quot;&#xa;	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)&#xa;	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)&#xa;	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)&#xa;	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)&#xa;	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)&#xa;	at screenError.run(screenError:25)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)&#xa;	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-12-2025T20:07:36 - [TEST_CASE][ERROR] - Test Cases/screenError: Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2025T20:07:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2025T20:07:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-12-2025T20:07:37 - [MESSAGE][INFO] - User set preference: ['browserVersion', '143']
+
+26-12-2025T20:07:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+26-12-2025T20:07:37 - [MESSAGE][INFO] - User set preference: ['platformName', 'windows']
+
+26-12-2025T20:07:37 - [MESSAGE][INFO] - User set preference: ['katalon:options', '{metadata={organizationId=482208, accountId=482208, channel=kse;v=10.4.2, projectId=434996}, executionMode=queue, browserVersionType=, usingTunnel=false}']
+
+26-12-2025T20:07:37 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/wd/hub' with type 'Selenium'
+
+26-12-2025T20:07:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2025T20:07:44 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-12-2025T20:07:44 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-12-2025T20:07:44 - [MESSAGE][WARNING] - Your browser version or type does not support the BiDirectional WebDriver Protocol which is required for Smart Locator functionality. Please update your browser or switch to a compatible one.
+
+26-12-2025T20:07:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - baseDriver = getWebDriver(): null
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - driver = Augmenter().augment(baseDriver): null
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - auth = "admin:admin": null
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - encodedAuth = "Basic " + encodeBase64().toString(): null
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - headerMap = new java.util.HashMap(): null
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - headerMap.put("Authorization", encodedAuth): null
+
+26-12-2025T20:07:45 - [TEST_STEP][ERROR] - if (driver instanceof org.openqa.selenium.chromium.HasCdp): Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2025T20:07:45 - [TEST_STEP][PASSED] - println("CDP Support Found. Injecting Headers..."): null
+
+26-12-2025T20:07:45 - [TEST_STEP][ERROR] - driver.executeCdpCommand("Network.enable", [:]): Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2025T20:07:45 - [MESSAGE][ERROR] - Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[26-12-2025T20:07:36 - [TEST_CASE][ERROR] - Test Cases/screenError: Test Cases/screenError FAILED.
+Reason:
+java.lang.IllegalAccessException: class org.openqa.selenium.support.decorators.WebDriverDecorator cannot access a member of class org.openqa.selenium.remote.RemoteWebDriver with modifiers "protected"
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF.execute(Unknown Source)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:39)
+	at org.openqa.selenium.chromium.AddHasCdp.lambda$getImplementation$1(AddHasCdp.java:56)
+	at org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$oX7kpdYF$ByteBuddy$l6yUobOo.executeCdpCommand(Unknown Source)
+	at screenError.run(screenError:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766759829476.run(TempTestSuite1766759829476.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-12-2025T20:07:11 - [TEST_SUITE][ERROR] - New Test Suite: null]]></system-out>
+      <system-err><![CDATA[26-12-2025T20:07:11 - [TEST_SUITE][ERROR] - New Test Suite: null]]></system-err>
+   </testsuite>
+</testsuites>

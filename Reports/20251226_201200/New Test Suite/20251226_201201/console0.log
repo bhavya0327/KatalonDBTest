@@ -1,0 +1,376 @@
+2025-12-26 20:12:03.897 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: /Applications/Katalon Studio Enterprise.app/Contents/Eclipse/configuration/org.eclipse.osgi/132/0/.cp/resources/logback/logback-execution.xml
+2025-12-26 20:12:03.899 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: /Users/bhavyansh-katalon/git/KatalonDBTest/Include/config/log.properties
+2025-12-26 20:12:03.977 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/New Test Suite
+2025-12-26 20:12:04.018 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Bhavyansh
+2025-12-26 20:12:04.019 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = KatalonDBTest
+2025-12-26 20:12:04.020 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = bhavyansh-katalon - 192.168.31.170
+2025-12-26 20:12:04.021 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-12-26 20:12:04.021 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.31.170
+2025-12-26 20:12:04.021 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.4.2.0
+2025-12-26 20:12:04.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:12:04.193 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:12:04.346 DEBUG testcase.screenError                     - 1: url = "https://the-internet.herokuapp.com/basic_auth"
+2025-12-26 20:12:04.347 DEBUG testcase.screenError                     - 2: user = "admin"
+2025-12-26 20:12:04.348 DEBUG testcase.screenError                     - 3: pass = "admin"
+2025-12-26 20:12:04.350 DEBUG testcase.screenError                     - 4: authenticate(url, user, pass, 15)
+2025-12-26 20:12:04.451 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at Script1766149640316.run(Script1766149640316.groovy:10)
+	... 15 more
+)
+2025-12-26 20:12:04.455 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-12-26 20:12:04.457 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:12:04.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:12:04.460 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:12:04.464 DEBUG testcase.screenError                     - 1: url = "https://the-internet.herokuapp.com/basic_auth"
+2025-12-26 20:12:04.466 DEBUG testcase.screenError                     - 2: user = "admin"
+2025-12-26 20:12:04.466 DEBUG testcase.screenError                     - 3: pass = "admin"
+2025-12-26 20:12:04.466 DEBUG testcase.screenError                     - 4: authenticate(url, user, pass, 15)
+2025-12-26 20:12:04.470 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at Script1766149640316.run(Script1766149640316.groovy:10)
+	... 16 more
+)
+2025-12-26 20:12:04.471 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-12-26 20:12:04.474 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:12:04.476 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:12:04.476 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:12:04.479 DEBUG testcase.screenError                     - 1: url = "https://the-internet.herokuapp.com/basic_auth"
+2025-12-26 20:12:04.480 DEBUG testcase.screenError                     - 2: user = "admin"
+2025-12-26 20:12:04.480 DEBUG testcase.screenError                     - 3: pass = "admin"
+2025-12-26 20:12:04.480 DEBUG testcase.screenError                     - 4: authenticate(url, user, pass, 15)
+2025-12-26 20:12:04.485 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at Script1766149640316.run(Script1766149640316.groovy:10)
+	... 17 more
+)
+2025-12-26 20:12:04.487 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-12-26 20:12:04.490 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:12:04.492 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-12-26 20:12:04.492 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/screenError
+2025-12-26 20:12:04.496 DEBUG testcase.screenError                     - 1: url = "https://the-internet.herokuapp.com/basic_auth"
+2025-12-26 20:12:04.496 DEBUG testcase.screenError                     - 2: user = "admin"
+2025-12-26 20:12:04.497 DEBUG testcase.screenError                     - 3: pass = "admin"
+2025-12-26 20:12:04.498 DEBUG testcase.screenError                     - 4: authenticate(url, user, pass, 15)
+2025-12-26 20:12:04.501 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to navigate to authenticated page (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at Script1766149640316.run(Script1766149640316.groovy:10)
+	... 18 more
+)
+2025-12-26 20:12:04.502 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/screenError FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to authenticated page
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.authenticate(AuthenticateKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.execute(AuthenticateKeyword.groovy:48)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:90)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.authenticate(WebUiBuiltInKeywords.groovy:2818)
+	at screenError.run(screenError:10)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:490)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:481)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:460)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:452)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:153)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:110)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1766760121807.run(TempTestSuite1766760121807.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.6', java.version: '17.0.14'
+Driver info: driver.version: unknown
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriverIsOpen(DriverFactory.java:587)
+	at com.kms.katalon.core.webui.driver.DriverFactory.verifyWebDriver(DriverFactory.java:572)
+	at com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(DriverFactory.java:546)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.throwErrorIfNotEligibleToExecute(AuthenticateKeyword.groovy:101)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword.access$0(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.doCall(AuthenticateKeyword.groovy:56)
+	at com.kms.katalon.core.webui.keyword.builtin.AuthenticateKeyword$_authenticate_closure1.call(AuthenticateKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2025-12-26 20:12:04.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/screenError
+2025-12-26 20:12:04.504 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-12-26 20:12:04.504 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/New Test Suite
+2025-12-26 20:12:04.504 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
